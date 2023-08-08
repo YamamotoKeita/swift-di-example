@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "needle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/uber/needle.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "2f2856d4fbe8f8828ebda86e69960007f5577f37"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "8bc503e60965298984fb58cf47b71c541449fe2a",
+        "version" : "2.8.3"
+      }
+    }
+  ],
+  "version" : 2
+}
