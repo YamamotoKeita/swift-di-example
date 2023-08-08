@@ -11,35 +11,46 @@
 		4023E2132A81EB3A001F1669 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2122A81EB3A001F1669 /* ContentView.swift */; };
 		4023E2152A81EB3B001F1669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4023E2142A81EB3B001F1669 /* Assets.xcassets */; };
 		4023E2182A81EB3B001F1669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4023E2172A81EB3B001F1669 /* Preview Assets.xcassets */; };
-		4023E2222A81EB3C001F1669 /* DIExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2212A81EB3C001F1669 /* DIExampleTests.swift */; };
-		4023E22C2A81EB3C001F1669 /* DIExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E22B2A81EB3C001F1669 /* DIExampleUITests.swift */; };
-		4023E22E2A81EB3C001F1669 /* DIExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E22D2A81EB3C001F1669 /* DIExampleUITestsLaunchTests.swift */; };
 		4023E23C2A820CDA001F1669 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4023E23B2A820CDA001F1669 /* Swinject */; };
 		4023E23F2A8213C0001F1669 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 4023E23E2A8213C0001F1669 /* NeedleFoundation */; };
 		4023E2442A82180F001F1669 /* FooRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2432A82180F001F1669 /* FooRepository.swift */; };
-		4023E2482A8218BB001F1669 /* BastardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2472A8218BB001F1669 /* BastardUseCase.swift */; };
+		4023E2482A8218BB001F1669 /* SimpleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2472A8218BB001F1669 /* SimpleUseCase.swift */; };
 		4023E24A2A8219BE001F1669 /* FooUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2492A8219BE001F1669 /* FooUseCase.swift */; };
 		4023E24C2A821A4C001F1669 /* SwinjectUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E24B2A821A4C001F1669 /* SwinjectUseCase.swift */; };
-		4023E24E2A821AC7001F1669 /* SwinjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E24D2A821AC7001F1669 /* SwinjectContainer.swift */; };
 		4023E2502A821F16001F1669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E24F2A821F16001F1669 /* AppDelegate.swift */; };
-		4023E2522A822114001F1669 /* PWAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2512A822114001F1669 /* PWAccessor.swift */; };
-		4023E2542A822159001F1669 /* PWContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2532A822159001F1669 /* PWContainer.swift */; };
-		4023E2562A82224D001F1669 /* PWUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2552A82224D001F1669 /* PWUseCase.swift */; };
-		4023E25A2A822384001F1669 /* CakeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2592A822384001F1669 /* CakeUseCase.swift */; };
-		4023E25C2A8223F2001F1669 /* CakeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25B2A8223F2001F1669 /* CakeContainer.swift */; };
-		4023E25E2A822515001F1669 /* BastardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25D2A822515001F1669 /* BastardContainer.swift */; };
-		4023E2602A822673001F1669 /* CakeAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25F2A822673001F1669 /* CakeAccessor.swift */; };
+		4023E25A2A822384001F1669 /* ExtensionUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2592A822384001F1669 /* ExtensionUseCase.swift */; };
+		4023E25C2A8223F2001F1669 /* ExtensionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25B2A8223F2001F1669 /* ExtensionContainer.swift */; };
+		4023E25E2A822515001F1669 /* SimpleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25D2A822515001F1669 /* SimpleContainer.swift */; };
+		4023E2602A822673001F1669 /* ExtensionInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E25F2A822673001F1669 /* ExtensionInjector.swift */; };
+		4023E2632A822C19001F1669 /* NeedleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2622A822C19001F1669 /* NeedleUseCase.swift */; };
+		4023E2652A822DCE001F1669 /* NeedleDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2642A822DCE001F1669 /* NeedleDependency.swift */; };
+		4023E2682A8231FA001F1669 /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2672A8231FA001F1669 /* NeedleGenerated.swift */; };
+		4023E26A2A823454001F1669 /* NeedleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023E2692A823454001F1669 /* NeedleComponent.swift */; };
+		4092270F2A828127008B14F9 /* SimpleDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092270E2A828127008B14F9 /* SimpleDependency.swift */; };
+		409227112A8284C1008B14F9 /* SwinjectDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227102A8284C1008B14F9 /* SwinjectDependency.swift */; };
+		409227132A8285AD008B14F9 /* ExtensionDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227122A8285AD008B14F9 /* ExtensionDependency.swift */; };
+		409227172A836CC8008B14F9 /* SimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227162A836CC8008B14F9 /* SimpleTests.swift */; };
+		409227192A836D64008B14F9 /* SwinjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227182A836D64008B14F9 /* SwinjectTests.swift */; };
+		4092271E2A83704F008B14F9 /* SwiftLeeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092271D2A83704F008B14F9 /* SwiftLeeContainer.swift */; };
+		409227202A8370B3008B14F9 /* SwiftLeeInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092271F2A8370B3008B14F9 /* SwiftLeeInjector.swift */; };
+		409227242A83719A008B14F9 /* SwiftLeeDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227232A83719A008B14F9 /* SwiftLeeDependency.swift */; };
+		409227262A83740F008B14F9 /* SwiftLeeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227252A83740F008B14F9 /* SwiftLeeUseCase.swift */; };
+		4092272B2A83764B008B14F9 /* CustomLeeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092272A2A83764B008B14F9 /* CustomLeeContainer.swift */; };
+		4092272D2A837AD1008B14F9 /* CustomLeeInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092272C2A837AD1008B14F9 /* CustomLeeInjector.swift */; };
+		4092272F2A837B44008B14F9 /* CustomLeeDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092272E2A837B44008B14F9 /* CustomLeeDependency.swift */; };
+		409227312A837EC8008B14F9 /* CustomLeeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227302A837EC8008B14F9 /* CustomLeeUseCase.swift */; };
+		409227332A83815A008B14F9 /* SwinjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227322A83815A008B14F9 /* SwinjectContainer.swift */; };
+		409227352A83876F008B14F9 /* SwiftLeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227342A83876F008B14F9 /* SwiftLeeTests.swift */; };
+		409227372A838817008B14F9 /* CustomLeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227362A838817008B14F9 /* CustomLeeTests.swift */; };
+		409227392A8388CD008B14F9 /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409227382A8388CD008B14F9 /* ExtensionTests.swift */; };
+		4092273B2A8389CC008B14F9 /* NeedleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092273A2A8389CC008B14F9 /* NeedleTests.swift */; };
+		4092273D2A838AD9008B14F9 /* NeedleMockComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092273C2A838AD9008B14F9 /* NeedleMockComponent.swift */; };
+		40F63C7B2A8F41640066813E /* BastardUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F63C7A2A8F41640066813E /* BastardUseCase.swift */; };
+		40F63C7D2A8F41BE0066813E /* BastardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F63C7C2A8F41BE0066813E /* BastardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4023E21E2A81EB3C001F1669 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4023E2052A81EB3A001F1669 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4023E20C2A81EB3A001F1669;
-			remoteInfo = DIExample;
-		};
-		4023E2282A81EB3C001F1669 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4023E2052A81EB3A001F1669 /* Project object */;
 			proxyType = 1;
@@ -55,24 +66,41 @@
 		4023E2142A81EB3B001F1669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4023E2172A81EB3B001F1669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4023E21D2A81EB3C001F1669 /* DIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4023E2212A81EB3C001F1669 /* DIExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIExampleTests.swift; sourceTree = "<group>"; };
-		4023E2272A81EB3C001F1669 /* DIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4023E22B2A81EB3C001F1669 /* DIExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIExampleUITests.swift; sourceTree = "<group>"; };
-		4023E22D2A81EB3C001F1669 /* DIExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4023E2432A82180F001F1669 /* FooRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooRepository.swift; sourceTree = "<group>"; };
-		4023E2472A8218BB001F1669 /* BastardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastardUseCase.swift; sourceTree = "<group>"; };
+		4023E2472A8218BB001F1669 /* SimpleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUseCase.swift; sourceTree = "<group>"; };
 		4023E2492A8219BE001F1669 /* FooUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooUseCase.swift; sourceTree = "<group>"; };
 		4023E24B2A821A4C001F1669 /* SwinjectUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectUseCase.swift; sourceTree = "<group>"; };
-		4023E24D2A821AC7001F1669 /* SwinjectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectContainer.swift; sourceTree = "<group>"; };
 		4023E24F2A821F16001F1669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4023E2512A822114001F1669 /* PWAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWAccessor.swift; sourceTree = "<group>"; };
-		4023E2532A822159001F1669 /* PWContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWContainer.swift; sourceTree = "<group>"; };
-		4023E2552A82224D001F1669 /* PWUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWUseCase.swift; sourceTree = "<group>"; };
-		4023E2592A822384001F1669 /* CakeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeUseCase.swift; sourceTree = "<group>"; };
-		4023E25B2A8223F2001F1669 /* CakeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeContainer.swift; sourceTree = "<group>"; };
-		4023E25D2A822515001F1669 /* BastardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastardContainer.swift; sourceTree = "<group>"; };
-		4023E25F2A822673001F1669 /* CakeAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeAccessor.swift; sourceTree = "<group>"; };
+		4023E2592A822384001F1669 /* ExtensionUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUseCase.swift; sourceTree = "<group>"; };
+		4023E25B2A8223F2001F1669 /* ExtensionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionContainer.swift; sourceTree = "<group>"; };
+		4023E25D2A822515001F1669 /* SimpleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleContainer.swift; sourceTree = "<group>"; };
+		4023E25F2A822673001F1669 /* ExtensionInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionInjector.swift; sourceTree = "<group>"; };
 		4023E2612A8229C0001F1669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4023E2622A822C19001F1669 /* NeedleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleUseCase.swift; sourceTree = "<group>"; };
+		4023E2642A822DCE001F1669 /* NeedleDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleDependency.swift; sourceTree = "<group>"; };
+		4023E2672A8231FA001F1669 /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
+		4023E2692A823454001F1669 /* NeedleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleComponent.swift; sourceTree = "<group>"; };
+		4092270E2A828127008B14F9 /* SimpleDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDependency.swift; sourceTree = "<group>"; };
+		409227102A8284C1008B14F9 /* SwinjectDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectDependency.swift; sourceTree = "<group>"; };
+		409227122A8285AD008B14F9 /* ExtensionDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDependency.swift; sourceTree = "<group>"; };
+		409227162A836CC8008B14F9 /* SimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTests.swift; sourceTree = "<group>"; };
+		409227182A836D64008B14F9 /* SwinjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectTests.swift; sourceTree = "<group>"; };
+		4092271D2A83704F008B14F9 /* SwiftLeeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeeContainer.swift; sourceTree = "<group>"; };
+		4092271F2A8370B3008B14F9 /* SwiftLeeInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeeInjector.swift; sourceTree = "<group>"; };
+		409227232A83719A008B14F9 /* SwiftLeeDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeeDependency.swift; sourceTree = "<group>"; };
+		409227252A83740F008B14F9 /* SwiftLeeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeeUseCase.swift; sourceTree = "<group>"; };
+		4092272A2A83764B008B14F9 /* CustomLeeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLeeContainer.swift; sourceTree = "<group>"; };
+		4092272C2A837AD1008B14F9 /* CustomLeeInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLeeInjector.swift; sourceTree = "<group>"; };
+		4092272E2A837B44008B14F9 /* CustomLeeDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLeeDependency.swift; sourceTree = "<group>"; };
+		409227302A837EC8008B14F9 /* CustomLeeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLeeUseCase.swift; sourceTree = "<group>"; };
+		409227322A83815A008B14F9 /* SwinjectContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectContainer.swift; sourceTree = "<group>"; };
+		409227342A83876F008B14F9 /* SwiftLeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLeeTests.swift; sourceTree = "<group>"; };
+		409227362A838817008B14F9 /* CustomLeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLeeTests.swift; sourceTree = "<group>"; };
+		409227382A8388CD008B14F9 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		4092273A2A8389CC008B14F9 /* NeedleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleTests.swift; sourceTree = "<group>"; };
+		4092273C2A838AD9008B14F9 /* NeedleMockComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleMockComponent.swift; sourceTree = "<group>"; };
+		40F63C7A2A8F41640066813E /* BastardUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastardUseCase.swift; sourceTree = "<group>"; };
+		40F63C7C2A8F41BE0066813E /* BastardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BastardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,13 +120,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4023E2242A81EB3C001F1669 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,7 +128,6 @@
 			children = (
 				4023E20F2A81EB3A001F1669 /* DIExample */,
 				4023E2202A81EB3C001F1669 /* DIExampleTests */,
-				4023E22A2A81EB3C001F1669 /* DIExampleUITests */,
 				4023E20E2A81EB3A001F1669 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,7 +137,6 @@
 			children = (
 				4023E20D2A81EB3A001F1669 /* DIExample.app */,
 				4023E21D2A81EB3C001F1669 /* DIExampleTests.xctest */,
-				4023E2272A81EB3C001F1669 /* DIExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +145,12 @@
 			isa = PBXGroup;
 			children = (
 				4023E2612A8229C0001F1669 /* Info.plist */,
-				4023E2422A821746001F1669 /* BastardInjection */,
+				40F63C792A8F41540066813E /* Bastard */,
+				4023E2422A821746001F1669 /* Simple */,
 				4023E2402A8216F7001F1669 /* Swinject */,
-				4023E2412A821711001F1669 /* PropertyWrapper */,
-				4023E2582A822325001F1669 /* Cake */,
+				4092271C2A83701E008B14F9 /* SwiftLee */,
+				409227292A837630008B14F9 /* CustomLee */,
+				4023E2582A822325001F1669 /* Extension */,
 				4023E2572A8222D3001F1669 /* Needle */,
 				4023E2102A81EB3A001F1669 /* DIExampleApp.swift */,
 				4023E2122A81EB3A001F1669 /* ContentView.swift */,
@@ -153,63 +174,88 @@
 		4023E2202A81EB3C001F1669 /* DIExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				4023E2212A81EB3C001F1669 /* DIExampleTests.swift */,
+				409227162A836CC8008B14F9 /* SimpleTests.swift */,
+				409227182A836D64008B14F9 /* SwinjectTests.swift */,
+				409227342A83876F008B14F9 /* SwiftLeeTests.swift */,
+				409227362A838817008B14F9 /* CustomLeeTests.swift */,
+				409227382A8388CD008B14F9 /* ExtensionTests.swift */,
+				4092273A2A8389CC008B14F9 /* NeedleTests.swift */,
+				40F63C7C2A8F41BE0066813E /* BastardTests.swift */,
 			);
 			path = DIExampleTests;
-			sourceTree = "<group>";
-		};
-		4023E22A2A81EB3C001F1669 /* DIExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4023E22B2A81EB3C001F1669 /* DIExampleUITests.swift */,
-				4023E22D2A81EB3C001F1669 /* DIExampleUITestsLaunchTests.swift */,
-			);
-			path = DIExampleUITests;
 			sourceTree = "<group>";
 		};
 		4023E2402A8216F7001F1669 /* Swinject */ = {
 			isa = PBXGroup;
 			children = (
-				4023E24D2A821AC7001F1669 /* SwinjectContainer.swift */,
+				409227322A83815A008B14F9 /* SwinjectContainer.swift */,
 				4023E24B2A821A4C001F1669 /* SwinjectUseCase.swift */,
+				409227102A8284C1008B14F9 /* SwinjectDependency.swift */,
 			);
 			path = Swinject;
 			sourceTree = "<group>";
 		};
-		4023E2412A821711001F1669 /* PropertyWrapper */ = {
+		4023E2422A821746001F1669 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
-				4023E2532A822159001F1669 /* PWContainer.swift */,
-				4023E2512A822114001F1669 /* PWAccessor.swift */,
-				4023E2552A82224D001F1669 /* PWUseCase.swift */,
+				4023E25D2A822515001F1669 /* SimpleContainer.swift */,
+				4092270E2A828127008B14F9 /* SimpleDependency.swift */,
+				4023E2472A8218BB001F1669 /* SimpleUseCase.swift */,
 			);
-			path = PropertyWrapper;
-			sourceTree = "<group>";
-		};
-		4023E2422A821746001F1669 /* BastardInjection */ = {
-			isa = PBXGroup;
-			children = (
-				4023E25D2A822515001F1669 /* BastardContainer.swift */,
-				4023E2472A8218BB001F1669 /* BastardUseCase.swift */,
-			);
-			path = BastardInjection;
+			path = Simple;
 			sourceTree = "<group>";
 		};
 		4023E2572A8222D3001F1669 /* Needle */ = {
 			isa = PBXGroup;
 			children = (
+				4023E2672A8231FA001F1669 /* NeedleGenerated.swift */,
+				4023E2692A823454001F1669 /* NeedleComponent.swift */,
+				4092273C2A838AD9008B14F9 /* NeedleMockComponent.swift */,
+				4023E2642A822DCE001F1669 /* NeedleDependency.swift */,
+				4023E2622A822C19001F1669 /* NeedleUseCase.swift */,
 			);
 			path = Needle;
 			sourceTree = "<group>";
 		};
-		4023E2582A822325001F1669 /* Cake */ = {
+		4023E2582A822325001F1669 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4023E2592A822384001F1669 /* CakeUseCase.swift */,
-				4023E25B2A8223F2001F1669 /* CakeContainer.swift */,
-				4023E25F2A822673001F1669 /* CakeAccessor.swift */,
+				4023E25B2A8223F2001F1669 /* ExtensionContainer.swift */,
+				4023E25F2A822673001F1669 /* ExtensionInjector.swift */,
+				4023E2592A822384001F1669 /* ExtensionUseCase.swift */,
+				409227122A8285AD008B14F9 /* ExtensionDependency.swift */,
 			);
-			path = Cake;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4092271C2A83701E008B14F9 /* SwiftLee */ = {
+			isa = PBXGroup;
+			children = (
+				4092271D2A83704F008B14F9 /* SwiftLeeContainer.swift */,
+				4092271F2A8370B3008B14F9 /* SwiftLeeInjector.swift */,
+				409227232A83719A008B14F9 /* SwiftLeeDependency.swift */,
+				409227252A83740F008B14F9 /* SwiftLeeUseCase.swift */,
+			);
+			path = SwiftLee;
+			sourceTree = "<group>";
+		};
+		409227292A837630008B14F9 /* CustomLee */ = {
+			isa = PBXGroup;
+			children = (
+				4092272A2A83764B008B14F9 /* CustomLeeContainer.swift */,
+				4092272C2A837AD1008B14F9 /* CustomLeeInjector.swift */,
+				4092272E2A837B44008B14F9 /* CustomLeeDependency.swift */,
+				409227302A837EC8008B14F9 /* CustomLeeUseCase.swift */,
+			);
+			path = CustomLee;
+			sourceTree = "<group>";
+		};
+		40F63C792A8F41540066813E /* Bastard */ = {
+			isa = PBXGroup;
+			children = (
+				40F63C7A2A8F41640066813E /* BastardUseCase.swift */,
+			);
+			path = Bastard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4023E2312A81EB3C001F1669 /* Build configuration list for PBXNativeTarget "DIExample" */;
 			buildPhases = (
+				4023E2662A823064001F1669 /* Run Script (Needle) */,
 				4023E2092A81EB3A001F1669 /* Sources */,
 				4023E20A2A81EB3A001F1669 /* Frameworks */,
 				4023E20B2A81EB3A001F1669 /* Resources */,
@@ -254,24 +301,6 @@
 			productReference = 4023E21D2A81EB3C001F1669 /* DIExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4023E2262A81EB3C001F1669 /* DIExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4023E2372A81EB3C001F1669 /* Build configuration list for PBXNativeTarget "DIExampleUITests" */;
-			buildPhases = (
-				4023E2232A81EB3C001F1669 /* Sources */,
-				4023E2242A81EB3C001F1669 /* Frameworks */,
-				4023E2252A81EB3C001F1669 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4023E2292A81EB3C001F1669 /* PBXTargetDependency */,
-			);
-			name = DIExampleUITests;
-			productName = DIExampleUITests;
-			productReference = 4023E2272A81EB3C001F1669 /* DIExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -286,10 +315,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					4023E21C2A81EB3C001F1669 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 4023E20C2A81EB3A001F1669;
-					};
-					4023E2262A81EB3C001F1669 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 4023E20C2A81EB3A001F1669;
 					};
@@ -314,7 +339,6 @@
 			targets = (
 				4023E20C2A81EB3A001F1669 /* DIExample */,
 				4023E21C2A81EB3C001F1669 /* DIExampleTests */,
-				4023E2262A81EB3C001F1669 /* DIExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,14 +360,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4023E2252A81EB3C001F1669 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4023E2662A823064001F1669 /* Run Script (Needle) */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Needle)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Needleのコードを自動生成するためのスクリプト\n# CLIをインストールしないと実行できずエラーになるのでコメントアウトしている\n\n#if [ $(uname -m) = \"arm64\" ]; then\n#  export PATH=\"/opt/homebrew/bin:/opt/homebrew/sbin:${PATH+:$PATH}\";\n#fi\n#export SOURCEKIT_LOGGING=0 && needle generate DIExample/Needle/NeedleGenerated.swift DIExample/\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4023E2092A81EB3A001F1669 /* Sources */ = {
@@ -351,20 +389,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				4023E2502A821F16001F1669 /* AppDelegate.swift in Sources */,
-				4023E25A2A822384001F1669 /* CakeUseCase.swift in Sources */,
+				4092272D2A837AD1008B14F9 /* CustomLeeInjector.swift in Sources */,
+				409227262A83740F008B14F9 /* SwiftLeeUseCase.swift in Sources */,
+				409227242A83719A008B14F9 /* SwiftLeeDependency.swift in Sources */,
+				4023E25A2A822384001F1669 /* ExtensionUseCase.swift in Sources */,
+				409227332A83815A008B14F9 /* SwinjectContainer.swift in Sources */,
+				409227312A837EC8008B14F9 /* CustomLeeUseCase.swift in Sources */,
 				4023E24C2A821A4C001F1669 /* SwinjectUseCase.swift in Sources */,
+				409227112A8284C1008B14F9 /* SwinjectDependency.swift in Sources */,
+				4092272B2A83764B008B14F9 /* CustomLeeContainer.swift in Sources */,
+				4092270F2A828127008B14F9 /* SimpleDependency.swift in Sources */,
+				4023E26A2A823454001F1669 /* NeedleComponent.swift in Sources */,
 				4023E2132A81EB3A001F1669 /* ContentView.swift in Sources */,
+				4023E2632A822C19001F1669 /* NeedleUseCase.swift in Sources */,
+				4092273D2A838AD9008B14F9 /* NeedleMockComponent.swift in Sources */,
+				4023E2652A822DCE001F1669 /* NeedleDependency.swift in Sources */,
 				4023E24A2A8219BE001F1669 /* FooUseCase.swift in Sources */,
+				409227132A8285AD008B14F9 /* ExtensionDependency.swift in Sources */,
 				4023E2442A82180F001F1669 /* FooRepository.swift in Sources */,
-				4023E2482A8218BB001F1669 /* BastardUseCase.swift in Sources */,
-				4023E2602A822673001F1669 /* CakeAccessor.swift in Sources */,
-				4023E25E2A822515001F1669 /* BastardContainer.swift in Sources */,
-				4023E2562A82224D001F1669 /* PWUseCase.swift in Sources */,
-				4023E2542A822159001F1669 /* PWContainer.swift in Sources */,
-				4023E2522A822114001F1669 /* PWAccessor.swift in Sources */,
-				4023E25C2A8223F2001F1669 /* CakeContainer.swift in Sources */,
+				4023E2482A8218BB001F1669 /* SimpleUseCase.swift in Sources */,
+				4023E2602A822673001F1669 /* ExtensionInjector.swift in Sources */,
+				4092272F2A837B44008B14F9 /* CustomLeeDependency.swift in Sources */,
+				4092271E2A83704F008B14F9 /* SwiftLeeContainer.swift in Sources */,
+				409227202A8370B3008B14F9 /* SwiftLeeInjector.swift in Sources */,
+				4023E25E2A822515001F1669 /* SimpleContainer.swift in Sources */,
+				4023E2682A8231FA001F1669 /* NeedleGenerated.swift in Sources */,
+				40F63C7B2A8F41640066813E /* BastardUseCase.swift in Sources */,
+				4023E25C2A8223F2001F1669 /* ExtensionContainer.swift in Sources */,
 				4023E2112A81EB3A001F1669 /* DIExampleApp.swift in Sources */,
-				4023E24E2A821AC7001F1669 /* SwinjectContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,16 +424,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4023E2222A81EB3C001F1669 /* DIExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4023E2232A81EB3C001F1669 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4023E22E2A81EB3C001F1669 /* DIExampleUITestsLaunchTests.swift in Sources */,
-				4023E22C2A81EB3C001F1669 /* DIExampleUITests.swift in Sources */,
+				40F63C7D2A8F41BE0066813E /* BastardTests.swift in Sources */,
+				4092273B2A8389CC008B14F9 /* NeedleTests.swift in Sources */,
+				409227192A836D64008B14F9 /* SwinjectTests.swift in Sources */,
+				409227172A836CC8008B14F9 /* SimpleTests.swift in Sources */,
+				409227352A83876F008B14F9 /* SwiftLeeTests.swift in Sources */,
+				409227392A8388CD008B14F9 /* ExtensionTests.swift in Sources */,
+				409227372A838817008B14F9 /* CustomLeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,11 +441,6 @@
 			isa = PBXTargetDependency;
 			target = 4023E20C2A81EB3A001F1669 /* DIExample */;
 			targetProxy = 4023E21E2A81EB3C001F1669 /* PBXContainerItemProxy */;
-		};
-		4023E2292A81EB3C001F1669 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4023E20C2A81EB3A001F1669 /* DIExample */;
-			targetProxy = 4023E2282A81EB3C001F1669 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -609,40 +653,6 @@
 			};
 			name = Release;
 		};
-		4023E2382A81EB3C001F1669 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.altonotes.DIExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DIExample;
-			};
-			name = Debug;
-		};
-		4023E2392A81EB3C001F1669 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.altonotes.DIExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DIExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -673,15 +683,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4023E2372A81EB3C001F1669 /* Build configuration list for PBXNativeTarget "DIExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4023E2382A81EB3C001F1669 /* Debug */,
-				4023E2392A81EB3C001F1669 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -689,16 +690,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				kind = exactVersion;
+				version = 2.8.3;
 			};
 		};
 		4023E23D2A8213C0001F1669 /* XCRemoteSwiftPackageReference "needle" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/uber/needle.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = exactVersion;
+				version = 0.23.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

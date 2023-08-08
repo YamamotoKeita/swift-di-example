@@ -1,6 +1,6 @@
 import Foundation
 
-class SwinjectUseCase: FooUseCase {
+class SimpleUseCase: FooUseCase {
     private let fooRepository: FooRepository
 
     init(fooRepository: FooRepository) {

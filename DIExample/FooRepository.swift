@@ -15,6 +15,6 @@ class FooRepositoryImpl: FooRepository {
 
 class FooRepositoryMock: FooRepository {
     func fetchData() -> String {
-        return "This is Mock"
+        return "Mock"
     }
 }

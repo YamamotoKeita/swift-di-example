@@ -7,9 +7,6 @@ struct DIExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onAppear {
-                    SwinjectContainer.initialize()
-                }
         }
     }
 }
