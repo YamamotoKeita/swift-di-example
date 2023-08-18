@@ -57,7 +57,7 @@ protocol FooUseCase {
 コンポーネントのイニシャライザの引数で依存モジュールを受け取る形にし、そのデフォルト引数にプロダクションの依存コンポーネントを設定する。
 テストのときはテスト用のモックなどをイニシャライザの引数に渡してコンポーネントを生成する。
 
-```swift:バスタードインジェクション
+```swift
 class BastardUseCase: FooUseCase {
     private let fooRepository: FooRepository
 
@@ -67,7 +67,7 @@ class BastardUseCase: FooUseCase {
 }
 ```
 
-```swift:テストコード
+```swift
 final class BastardTests: XCTestCase {
     func testUseCase() throws {
         let useCase = BastardUseCase(fooRepository: FooRepositoryMock())
@@ -85,7 +85,7 @@ final class BastardTests: XCTestCase {
 
 モジュールを格納するためのコンテナを作り、共有オブジェクトとして保持しておく。
 
-```swift:コンテナ
+```swift
 struct SimpleContainer {
     static var shared: SimpleContainer!
 
@@ -96,7 +96,7 @@ struct SimpleContainer {
 
 アプリケーションの起動時などに、コンテナの中に必要なモジュールを格納する。
 
-```swift:依存モジュールの設定例
+```swift
 enum SimpleDependency {
     static func configure() {
         let fooRepository = FooRepositoryImpl()
